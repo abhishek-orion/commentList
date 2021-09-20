@@ -1,0 +1,33 @@
+.App{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.header {
+    font-size: 24px;
+    color: white;
+    padding: 4px;
+    background-color: black;
+    margin: 8px;
+}
+
+.searchInput {
+    margin: 8px;
+}
+
+.comment {
+    padding: 4px;
+    width: 100%;
+}
+
+.commentText {
+    font-size: 12px;
+}
+
+.deleteButton {
+    float: right;
+    margin-left: 4px;
+}
